@@ -1,0 +1,67 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  {% if page.redirect_to %}
+  <meta http-equiv="refresh" content="0; {{ page.redirect_to }}">
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/jquery.bxslider.css" | prepend: site.baseurl }}">
+
+  <!-- Bootstrap Font Awesome CSS -->
+  <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+  <!--Venera & Hero webfont-->
+  <link rel="stylesheet" type="text/css" href="{{ "/fonts/webfontkit/stylesheet.css" charset="utf-8" | prepend: site.baseurl }}">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" type="text/css" href="{{ "/site.css" | prepend: site.baseurl }}"/>
+
+  <!--DIN & Sol Condensed webfont-->
+  <!-- These return 304's now. I assume whoever set the site up wasn't paying for the fonts.
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/a9120317-5a62-4498-81c9-88990d441f01.js"></script> -->
+
+  <link rel="stylesheet" href="{{ "/css/datepicker3.css" | prepend: site.baseurl }}" id="bsdp-css">
+
+  <script type="text/javascript">
+    Image1 = new Image(388,123)
+    Image1.src = "/images/buttons/btn-logo-header.png"
+
+    Image2 = new Image(238,90)
+    Image2.src = "/images/buttons/btn-phone-header.png"
+
+    Image3 = new Image(50,50)
+    Image3.src = "/images/backgrounds/bg-menu.png"
+
+    Image4 = new Image(1620,936)
+    Image4.src = "/images/backgrounds/bg-body.jpg"
+
+    Image5 = new Image(800,828)
+    Image5.src = "/images/backgrounds/bg-body-sm.jpg"
+
+    Image6 = new Image(50,50)
+    Image6.src = "/images/backgrounds/bg-black.png"
+
+    Image7 = new Image(50,50)
+    Image7.src = "/images/backgrounds/bg-green.png"
+   </script>
+
+   <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-64299328-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>

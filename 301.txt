@@ -1,0 +1,7 @@
+/class-parties -> /schools#class-party
+/sessions-deals -> /packages#sessions
+/driftzone -> /laser-tag#driftzone
+/blastzone -> /laser-tag#blastzone
+/retrozone-arcade -> /laser-tag#retrozone-arcade
+/trading-hours -> /contact-details#trading-hours
+/book-online -> https://megazoneau.pcsparty.com/bookings/
