@@ -8,38 +8,65 @@
 /trading-hours -> /contact-details/#trading-hours
 /book-online -> https://megazoneau.pcsparty.com/bookings/
 
-late-night-lockdown -> 8-lg.jpg
+Branding of attractions is very inconsistent. The following variations are
+still present in various places:
 
-- Branding of attractions is very inconsistent. The following variations are still present in various places:
-  - Blastzone, Blastzone Rides, Shooting Gallery, Blastzone Shooting Gallery
-  - Retro Video Games, Retrozone Arcade, Retrozone Arcade Games, Retro Arcade, Retro Gaming, Retro Gaming Room, Retro Video Game Room
-  - Driftzone Dodgems, Bumper Cars, Bumper Car Ride
-  - Laserzone, Laser Tag, Lasertag
+- Blastzone, Blastzone Rides, Shooting Gallery, Blastzone Shooting Gallery
+- Retro Video Games, Retrozone Arcade, Retrozone Arcade Games, Retro Arcade,
+  Retro Gaming, Retro Gaming Room, Retro Video Game Room
+- Driftzone Dodgems, Bumper Cars, Bumper Car Ride
+- Laserzone, Laser Tag, Lasertag
 
-- Where do you want the tripadvisor link placed? I put it on the /our-location page.
+The original site images have two different versions for each one at different
+sizes. You can see the difference with these two:
+
+- http://megazone.net.au/images/slider/3.jpg
+- http://megazone.net.au/images/slider/3-lg.jpg
+
+Frankly there isn't much difference. The main concern is that the aspect
+ratios are slightly different, because there is some cropping/repositioning
+going on, so a flat rescale isn't entirely appropriate. (That's what I did
+with the pictures you provided.) It's not really noticeable, but whoever you
+got to do those pictures should be aware that there are two different versions
+of each.
+
+Where do you want the tripadvisor link placed? I put it on the /our-location page.
 
 # Parties
 
-- The first two dot points in catered/uncatered sports/kids parties ("20 minutes in Retrozone", "Mission Briefing") swap places randomly. I've put the 20 minutes retrozone first in all of them since I assume that's how things play out (ppl goof around in lobby area for 20 minutes until everyone arrives, then brief everyone).
+The first two dot points in catered/uncatered sports/kids parties ("20 minutes
+in Retrozone", "Mission Briefing") swap places randomly. I've put the 20
+minutes retrozone first in all of them since I assume that's how things play
+out (ppl goof around in lobby area for 20 minutes until everyone arrives, then
+brief everyone).
 
 # Schools
 
-- The following paragraph was deleted. Not sure if intended, since other deletions were explicitly indicated, but the paragraph does seem out of place.
+The following paragraph was deleted. Not sure if intended, since other
+deletions were explicitly indicated, but the paragraph does seem out of place.
 
-> Laser Tag is a sport played at the National and International level. We are lucky enough to have local players with many years of National and International experience. There is a thriving Laser Tag competition and playing scene here at Megazone Noarlunga that can help any youngster who enjoys the sport of Laser Tag.
+> Laser Tag is a sport played at the National and International level. We are
+> lucky enough to have local players with many years of National and
+> International experience. There is a thriving Laser Tag competition and
+> playing scene here at Megazone Noarlunga that can help any youngster who
+> enjoys the sport of Laser Tag.
 
-- Document has a duplicate of this section.
+There are two copies of this section in your changes document which contradict each other:
 
-   - The 2 hour laser tag only package is $27 in the first and $28 in the second. I've assumed $28 was intended because of the symmetry with the other package prices ($33 and $38).
-
-   - "All Schools get the special price of $7 per person, per game." It's $5 in the second section. I've assumed $7 is correct, since that lines up with the package prices ($28 for 4 games = $7 per game).
+- The first package is $27 in the first and $28 in the second. Assumed $28
+  because of hourly pass image.
+- "All Schools get the special price of $7 per person, per game." It's $5 in
+  the second section. I've assumed $7 is correct, since that lines up with
+  the package prices ($28 for 4 games = $7 per game).
 
 # Holiday Programs
 
-- Packages are same as Schools section, except first package is $27. Is $28 intended?
+Packages are same as Schools section, except first package is $27. Assumed $28
+because of hourly pass image.
 
-- Says "$x per person Package" whereas Schools section is just "$x package". Which is intended?
+Says "$x per person Package" whereas Schools section is just "$x package".
+Which is intended?
 
-- Following paragraph was deleted. Not sure intended:
+Following paragraph was deleted. Not sure intended:
 
 > If you would like to find out more, contact info@megazone.net.au or call 8186 3700
