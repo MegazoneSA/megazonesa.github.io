@@ -2894,6 +2894,9 @@ div#slide-7 {
 div#slide-8 {
   background: url("images/slider/8.jpg") no-repeat center bottom;
 }
+div#slide-9 {
+  background: url("images/slider/9.jpg") no-repeat center bottom;
+}
 
 div#slide-1,
 div#slide-2,
@@ -2902,7 +2905,8 @@ div#slide-4,
 div#slide-5,
 div#slide-6,
 div#slide-7,
-div#slide-8 {
+div#slide-8,
+div#slide-9 {
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -2933,6 +2937,9 @@ div#slide-8 {
   }
   div#slide-8 {
    background: url("images/slider/8-lg.jpg") no-repeat center bottom;
+  }
+  div#slide-9 {
+   background: url("images/slider/9-lg.jpg") no-repeat center bottom;
   }
 }
 /* End of 'carousel' */
