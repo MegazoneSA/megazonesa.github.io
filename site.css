@@ -52,10 +52,10 @@ h1 strong em, h2 strong em, .carousel-caption h1 strong em, .carousel-caption h1
 
 
 body {
-  background: url("megazonesa.github.io/images/backgrounds/bg-body.jpg") no-repeat center top fixed #000;
+  background: url("/images/backgrounds/bg-body.jpg") no-repeat center top fixed #000;
 }
 body.home {
-  background: url("megazonesa.github.io/images/backgrounds/bg-body.jpgg") no-repeat center top fixed #000;
+  background: url("/images/backgrounds/bg-body.jpg") no-repeat center top fixed #000;
 }
 body.print-friendly {
   background: #fff;
